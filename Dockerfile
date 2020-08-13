@@ -13,5 +13,5 @@ RUN rm requirements.txt
 EXPOSE $PORT
 
 CMD hug -p $PORT -f main.py 
-
+#END
 
